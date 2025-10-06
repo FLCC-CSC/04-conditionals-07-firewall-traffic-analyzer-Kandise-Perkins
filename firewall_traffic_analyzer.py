@@ -27,15 +27,15 @@ def firewall_traffic_analyzer():
 
     #risk analysis
     if (number == 22 or number == 3389) and data_transfer >=100:
-       analysis = 'HIGH RISK: Potential unauthorized remote access detected.'
+       analysis = 'HIGH RISK: Potential unauthorized remote access detected!'
     elif number == 80 and data_transfer > 100:
-       analysis = 'MEDIUM RISK: Large unencrypted transfer detected.'
+       analysis = 'MEDIUM RISK: Large data unencrypted transfer detected.'
     elif number == 443:
         analysis = 'LOW RISK: Secure encrypted transfer detected.'
     else:
         analysis = 'UNKNOWN: Unrecognized traffic pattern.'
 
-    print(f'RISK ASSESSMENT:{analysis}')
+    print(f'RISK ASSESSMENT: {analysis}')
 
     print('------------------------')
             
