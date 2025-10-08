@@ -2,7 +2,7 @@
 
 # NAME: Kandise Perkins
 # DATE: October 6, 2025
-# BRIEF DESCRIPTION: 
+# BRIEF DESCRIPTION: Write a program that takes two inputs and produces a warning using risk analysis.
 
 
 
