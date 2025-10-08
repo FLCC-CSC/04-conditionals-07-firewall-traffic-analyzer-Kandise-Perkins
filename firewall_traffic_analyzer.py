@@ -35,9 +35,10 @@ def firewall_traffic_analyzer():
     else:
         analysis = 'UNKNOWN: Unrecognized traffic pattern.'
 
-    print(f'RISK ASSESSMENT: {analysis}')
+    print(f'Risk Assessment: {analysis}')
 
     print('------------------------')
+
             
 
 main()
